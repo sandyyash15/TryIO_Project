@@ -1,0 +1,226 @@
+
+.top-bar {
+    background-color: rgb(236, 84, 89); /* Pink color */
+    color: #fff; /* White text color */
+    padding: 17px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.top-bar .left {
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+/* Style the text on the right side (WhatsApp number) */
+.top-bar .right {
+    margin-right: 100px;
+}
+/* Reset some default browser styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #030303;
+    padding: 10px 20px;
+    box-shadow: 0px 7px 14px 7px rgba(26, 25, 25, 0.2);
+}
+
+/* Style the left side */
+.left {
+    flex: 1;
+}
+
+/* Style the center options */
+.center ul {
+    display: flex;
+    justify-content: center;
+}
+
+.center li {
+    margin: 0 20px;
+}
+
+.center a {
+    text-decoration: none;
+    color: #070707;
+    font-weight: bold;
+}
+
+/* Style the right side */
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Style the icons */
+.right img {
+    width: 60px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between the icons */
+}
+
+
+.right a {
+    margin-left: 20px;
+}
+
+/* Style the TryIO name */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Dropdown Button */
+
+  
+  
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(8, 8, 8);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(248, 244, 244);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #faf6f6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgba(112, 112, 112, 0.7); 
+    padding: 12px 16px;
+    text-decoration: none;
+    transition: opacity 0.3s;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    color: #000; /* Change to black on hover */
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Reset some default browser styles */
+/* Reset some default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.circle-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style for each individual circle */
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px; /* Adjust as needed */
+  overflow: hidden;
+  background: #f1f1f1; /* Background color for the circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s ease;
+}
+
+/* Style for the circle image */
+.circle img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.circle-container-item {
+  text-align: center;
+  margin: 10px; /* Adjust margin as needed */
+  display: flex;
+  flex-direction: column; /* Add this to allow vertical alignment */
+  align-items: center;
+  height: auto; /* Allow items to grow in height as needed */
+}
+
+/* Style for the circle container items text */
+.circle-container-item p {
+  margin-top: 10px; /* Adjust spacing between circle and text */
+}
+
+.circle:hover {
+  transform: translateY(-7px); /* Move the circle 5px upward when hovered */
+}
+/* CSS for the container of the cards */
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Distribute space between cards */
+  margin: 20px; /* Adjust margin as needed */
+}
+
+/* CSS for individual cards */
+.card {
+  width: 30%; /* Adjust the width of the cards as needed */
+  padding: 20px;
+  background-color: rgb(236, 84, 89);
+  border: 1px solid #ddd; /* Add a border for separation */
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2); /* Add a shadow effect */
+  text-align: center;
+  height: 180px;
+}
+
+
+
+/* Add more styles for card content, titles, and images as needed */
+.card h1 {
+  font-size: 50px;
+  color: White;
+}
+
+
+/* Adjust card styles for responsiveness if needed */
+@media (max-width: 768px) {
+  .card {
+      width: 100%; /* Full width on smaller screens */
+  }
+}
+h1 {
+  margin: 0; /* Adjust the margin to control vertical spacing */
+  padding: 0; /* Remove any padding to eliminate extra spacing */
+}
