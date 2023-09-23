@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     font-weight: bold;
+    cursor: pointer;
 }
 .top-bar .left {
     margin-left: 20px; /* Adjust the margin as needed */
@@ -20,6 +21,7 @@
 /* Style the text on the right side (WhatsApp number) */
 .top-bar .right {
     margin-right: 100px;
+    cursor: pointer;
 }
 /* Reset some default browser styles */
 body, ul {
@@ -42,6 +44,7 @@ body, ul {
 /* Style the left side */
 .left {
     flex: 1;
+    cursor: pointer;
 }
 
 /* Style the center options */
